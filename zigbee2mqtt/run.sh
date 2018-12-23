@@ -22,4 +22,4 @@ if [[ ! -z "$ZIGBEE_SHEPHERD_DEVICES" ]]; then
     fi
 fi
 
-ZIGBEE2MQTT_DATA="$DATA_PATH" pm2-runtime start npm -- start
+#ZIGBEE2MQTT_DATA="$DATA_PATH" pm2-runtime start npm -- start
